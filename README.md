@@ -27,6 +27,8 @@ Scope:
 
 Data Sources:
 
+Google Trend API
+
 World happiness report: chrome-extension://gbkeegbaiigmenfmjfclcdgdpimamgkj/views/app.html
 
 Air travel: https://data.worldbank.org/indicator/ST.INT.ARVL?end=2016&locations=DE-BR-ZA&name_desc=false&start=2000
