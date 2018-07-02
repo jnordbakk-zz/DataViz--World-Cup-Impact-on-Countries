@@ -253,38 +253,3 @@ plt.style.use('seaborn')
 
 ![png](output_3_0.png)
 
-
-
-```python
-# Plot lines for each on the winner countries and add marker X for the winning year
-ax=plt.plot(whr_Germany_df["year"],whr_Germany_df["Life Ladder"],  color="red", label="Germany")
-ax=plt.scatter(whr_Germany_df["year"].loc[whr_df["year"] == 2012],whr_Germany_df["Life Ladder"].loc[whr_df["year"] == 2012],  color="red",marker='x',label='_nolegend_')
-
-# plt.plot(whr_Italy_df["year"],whr_Italy_df["Life Ladder"],  color="black", label="Italy")
-# plt.scatter(whr_Italy_df["year"].loc[whr_df["year"] == 2006],whr_Italy_df["Life Ladder"].loc[whr_df["year"] == 2006],  color="black",marker='x',label='_nolegend_')
-
-# plt.plot(whr_Spain_df["year"],whr_Spain_df["Life Ladder"],  color="green", label="Spain")
-# plt.scatter(whr_Spain_df["year"].loc[whr_df["year"] == 2010],whr_Spain_df["Life Ladder"].loc[whr_df["year"] == 2010],  color="green",marker='x',label='_nolegend_')
-
-# plot graph of mean happiness score for countries in contro group
-summed.plot(kind="line", color='grey',alpha=0.35, label="Control countries ")
-
-
-
-## create Legend and place outside of graph
-plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-
-plt.title("Happiness Index between 2005-2017")
-plt.xlabel("Years")
-plt.ylabel("Happiness Index")
-
-# Print our chart to the screen
-plt.show()
-
-# Customize the grid
-plt.style.use('seaborn')
-```
-
-
-![png](output_4_0.png)
-
